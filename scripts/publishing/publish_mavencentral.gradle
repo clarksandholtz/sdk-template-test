@@ -88,27 +88,26 @@ publishing {
                 url = currentDeployModule.PUBLISH_ARTIFACT_WEBSITE
                 
                 licenses {
-                    // TODO update license according to your project
                     license {
-                        name = 'APACHE LICENSE'
-                        url = 'https://github.com/cioccarellia/lib-template-android/blob/master/LICENSE.md'
+                        name = 'MIT License'
+                        url = 'https://github.com/clarksandholtz/sdk-template-test/blob/master/LICENSE.md'
                     }
                 }
                 
                 developers {
                     // TODO update developer(s) data according to your project
                     developer {
-                        id = 'cioccarellia'
-                        name = 'Andrea Cioccarelli'
-                        email = 'andrea.cioccarelli01@gmail.com'
+                        id = 'clarksandholtz'
+                        name = 'Clark Sandholtz'
+                        email = 'clarksandholtz@gmail.com'
                     }
                 }
                 
                 scm {
                     // TODO update connection parameters according to your project
-                    connection = 'scm:git:github.com/cioccarellia/lib-template-android.git'
-                    developerConnection = 'scm:git:ssh://github.com/cioccarellia/lib-template-android.git'
-                    url = 'https://github.com/cioccarellia/lib-template-android/tree/main'
+                    connection = 'scm:git:github.com/clarksandholtz/sdk-template-test.git'
+                    developerConnection = 'scm:git:ssh://github.com/clarksandholtz/sdk-template-test.git'
+                    url = 'https://github.com/clarksandholtz/sdk-template-test/tree/main'
                 }
                 
                 withXml {
